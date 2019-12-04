@@ -2,11 +2,12 @@
 title: "Home"
 seo_title: "Edge Native Working Group"
 headline: "Edge Native Working Group"
+tagline: "Open Edge Native Platform Now"
 description: "Deliver production-ready platforms for the development, operation, and management of edge native applications deployed to heterogeneous environments where computational power and data storage are physically distributed wherever they are needed."
 hide_page_title: true
 hide_sidebar: true
 hide_breadcrumb: true
-show_featured_story: true
+show_featured_story: false
 date: 2019-09-10T15:50:25-04:00
 layout: "single"
 ---
