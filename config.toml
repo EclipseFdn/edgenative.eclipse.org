@@ -1,0 +1,44 @@
+baseurl = "https://edgenative.eclipse.org/"
+DefaultContentLanguage = "en"
+title = "Edge Native"
+theme = "eclipsefdn-hugo-solstice-theme"
+metaDataFormat = "yaml"
+googleAnalytics = "UA-910670-30"
+disableKinds = []
+themesDir = "node_modules/"
+enableRobotsTXT = true
+
+[Params]
+  google_tag_manager = "GTM-5WLCZXC"
+  description = "Deliver production-ready platforms for the development, operation, and management of edge native applications deployed to heterogeneous environments where computational power and data storage are physically distributed wherever they are needed."
+  seo_title_suffix = " | The Eclipse Foundation"
+  keywords = ["eclipse working groups"]
+#  logo = ""
+  styles = "css/styles.css"
+#  favicon = ""
+#  share_img = ""
+  gcse = "011805775785170369411:p3ec0igo0qq"
+  js = "js/solstice.js"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  membership_level = "membership_levels"
+  participation_level = "participation_levels"
+
+[Author]
+  name = "Christopher Guindon"
+  website = "https://www.eclipse.org"
+  email = "webdev@eclipse-foundation.org"
+  facebook = "eclipse.org"
+  twitter = "EclipseFdn"
+  youtube = "EclipseFdn"
+  googleplus = "+Eclipse"
+  linkedin = "company/eclipse-foundation/"
+
+[permalinks]
+  news = "/:sections/:year/:month/:day/:slug/"
+
+[blackfriday]
+  plainIDAnchors = true
+  hrefTargetBlank = true
