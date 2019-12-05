@@ -7,18 +7,20 @@ googleAnalytics = "UA-910670-30"
 disableKinds = []
 themesDir = "node_modules/"
 enableRobotsTXT = true
+pluralizeListTitles = false
 
 [Params]
   google_tag_manager = "GTM-5WLCZXC"
-  description = "Deliver production-ready platforms for the development, operation, and management of edge native applications deployed to heterogeneous environments where computational power and data storage are physically distributed wherever they are needed."
+  description = "The Edge Native WG delivers production-ready open platforms for edge native applications deployed where compute and storage are physically distributed."
   seo_title_suffix = " | The Eclipse Foundation"
   keywords = ["eclipse working groups"]
-#  logo = ""
+  logo = "images/edgenative/edge-logo-white-horizontal.svg"
   styles = "css/styles.css"
-#  favicon = ""
-#  share_img = ""
+  favicon = "images/edgenative/favicon/favicon.ico"
+  share_img = "images/edgenative/edge-logo-social.png"
   gcse = "011805775785170369411:p3ec0igo0qq"
   js = "js/solstice.js"
+  header_wrapper_class = " header-default-bg-img"
 
 [taxonomies]
   category = "categories"
@@ -42,3 +44,18 @@ enableRobotsTXT = true
 [blackfriday]
   plainIDAnchors = true
   hrefTargetBlank = true
+  
+[[menu.main]]
+    name = "Members"
+    url = "/#members"
+    weight = 1
+
+[[menu.main]]
+    name = "Testimonials"
+    url = "/#testimonials"
+    weight = 2
+    
+[[menu.main]]
+    name = "FAQ"
+    url = "/faq"
+    weight = 3
