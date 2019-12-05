@@ -2,7 +2,7 @@
 
 The [https://eclipsefdn-edgenative.netlify.com](https://eclipsefdn-edgenative.netlify.com) website is generated with [Hugo](https://gohugo.io/documentation/). This project is a work in progress. 
 
-Deliver production-ready platforms for the development, operation, and management of edge native applications deployed to heterogeneous environments where computational power and data storage are physically distributed wherever they are needed.
+The Edge Native WG delivers production-ready open platforms for edge native applications deployed where compute and storage are physically distributed.
 
 [![Build Status](https://travis-ci.org/eclipsefdn/edgenative.eclipse.org.svg?branch=master)](https://travis-ci.org/eclipsefdn/edgenative.eclipse.org)
 

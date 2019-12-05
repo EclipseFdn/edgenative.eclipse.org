@@ -10,3 +10,20 @@
  * 
  * SPDX-License-Identifier: EPL-2.0
 */
+
+//== Typography
+@font-family-sans-serif: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+//== Colors
+@brand-primary: #396894; // Blue
+@brand-secondary: #5997BD; // Light Blue
+@brand-tertiary: #213970; // Dark Blue
+@brand-quaternary: #efefef; // Light Gray
+@brand-quinary: @brand-quaternary; // Light Gray (Breadcrumbs)
+@brand-info: @brand-tertiary;
+@brand-info-light: lighten(@brand-info, 20%);
+@brand-warning: @brand-primary;
+
+
+//== /_core/template/header.less
+@header-default-bg-img:url('../static/images/edgenative/homepage/jumbotron-image.png');
