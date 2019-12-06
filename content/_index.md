@@ -56,12 +56,12 @@ container: "container-fluid"
 <div id="faq" class="row featured-section featured-section-faq">
   <div class="container">
     <div class="row">
-      <div class="col-sm-16 col-md-17 col-md-offset-1">
+      <div class="col-md-16 col-sm-offset-1">
         <h2 class="header-underline">Frequently Asked Questions</h2>
         <p>Why is the Eclipse Foundation creating this working group now? How is the Eclipse Edge Native working group distinct from Eclipse IoT? How do I join? Get answers to all these questions and more in our FAQ.</p>
         <p><a href="/about/faq" class="btn btn-primary">Learn more</a><p>
       </div>
-      <div class="col-sm-7 padding-top-20 col-md-4">
+      <div class="col-md-4 col-sm-offset-1 padding-top-20 hidden-xs hidden-sm">
         <img class="img-responsive" src="/images/edgenative/homepage/faq-icon.svg">
       </div>
     </div>
