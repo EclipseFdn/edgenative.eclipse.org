@@ -18,9 +18,6 @@
   background-position: 0 100%;
   .featured-jumbotron{
     padding-top:48px;
-    p:last-child{
-      margin-bottom:0;
-    }
   }
 }
 
@@ -40,4 +37,99 @@
 
 .featured-footer{
   margin-top:50px;
+}
+.featured-section{
+  padding: 60px 0 60px 0;
+  background-position: 0 100%;
+  font-size:19px;
+  h2{
+    font-size: 22px;
+    font-size: 34px;
+    margin-bottom: 20px;
+    color: @brand-tertiary;
+    margin-top:0;
+  }
+  p{
+    margin-bottom:20px;
+    &:last-child{
+      margin-bottom:0;
+    }
+  }
+}
+.logo-eclipse-default{
+	padding-top:9px;
+}
+.featured-section-primary{
+   background-size:cover;
+   background-color:@brand-tertiary;
+   color: #fff;
+   h2 {
+     color: #fff;
+   }
+}
+.featured-section-testimonials,
+.featured-section-connect{
+	text-align:center;
+	 background-image:url('../static/images/edgenative/homepage/testimonials-image.jpg');
+	
+}
+.featured-section-faq{
+	margin-bottom:-60px;
+}
+.featured-section-statement{
+  background-image:url('../static/images/edgenative/homepage/mission-statement-image.jpg');
+}
+
+.logo-eclipse-default-mobile{
+	max-width:260px;
+}
+.featured-section-members {
+	text-align:center;
+	li{
+	 padding:10px;
+	}
+	h2{
+	
+	}
+	img{
+	
+	}
+}
+
+.featured-section-testimonials {
+  .testimonial-item {
+    margin-top:120px;
+    .testimonial-logo {
+      background-color: #fff;
+      border-radius: 150px;
+      width: 150px;
+      height: 150px;
+      display: flex;
+      align-items: center;
+      margin: -120px auto 30px;
+      position: relative;
+      img {
+        margin:0 auto;
+      }
+    }
+    .title {
+      font-size:16px;
+    }
+    .content {
+      font-size:14px;
+    }
+  }
+}
+
+.mission-circle {
+  display:block;
+  width:300px;
+  height:300px;
+  padding:37px 26px 34px 40px;
+  background-color:@white;
+  border-radius:150px;
+  margin:0px auto 0;
+  img{
+    margin-top:45px;
+  }
 }

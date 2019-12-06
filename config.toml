@@ -13,7 +13,7 @@ pluralizeListTitles = false
   google_tag_manager = "GTM-5WLCZXC"
   description = "The Edge Native WG delivers production-ready open platforms for edge native applications deployed where compute and storage are physically distributed."
   seo_title_suffix = " | The Eclipse Foundation"
-  keywords = ["eclipse working groups"]
+  keywords = ["edge", "compute", "platforms", "runtimes", "AI", "autonomous", "5G", "IoT", "open source"]
   logo = "images/edgenative/edge-logo-white-horizontal.svg"
   styles = "css/styles.css"
   favicon = "images/edgenative/favicon/favicon.ico"
@@ -21,7 +21,11 @@ pluralizeListTitles = false
   gcse = "011805775785170369411:p3ec0igo0qq"
   js = "js/solstice.js"
   header_wrapper_class = " header-default-bg-img"
-
+  logo_width = "260"
+  header_left_classes = "col-sm-7"
+  main_menu_wrapper_classes = "col-sm-17 margin-top-10"
+  twitter_url = "https://twitter.com/EdgeNativeWG"
+  
 [taxonomies]
   category = "categories"
   tag = "tags"
@@ -54,8 +58,13 @@ pluralizeListTitles = false
     name = "Testimonials"
     url = "/#testimonials"
     weight = 2
-    
+
+[[menu.main]]
+    name = "Join Us"
+    url = "https://accounts.eclipse.org/contact/membership"
+    weight = 2
+
 [[menu.main]]
     name = "FAQ"
-    url = "/faq"
+    url = "/about/faq"
     weight = 3
