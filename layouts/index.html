@@ -1,0 +1,64 @@
+{{ define "main" }}
+<div class="container" id="content">
+<div class="row margin-top-50 margin-bottom-50">
+  <div class="col-sm-13 news-list">
+    <div class="news-list-col margin-bottom-40">
+      <h2 class="heading-line">
+        <span>News</span>
+      </h2>
+      <div class="news-list-media">
+        {{ range first 5 (where .Pages "Section" "news") }}
+        <div class="news-list">
+          <a
+            href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}"
+            class="media media-link">
+            <p class="media-date">{{ .Date.Format "Monday, Jan 2, 2006" }}</p>
+            <h4 class="media-heading">{{ .Title }}</h4>
+            <p class="media-text">{{ .Summary }}</p>
+          </a>
+        </div>
+        {{ end }}
+      </div>
+      <ul class="list-inline news-list-links">
+        <li class="news-list-links-view-all"><a
+          href="categories/announcements">View all</a></li>
+        <li class="news-list-links-rss"><a
+          href="categories/announcements/index.xml"
+          title="Subscribe to our RSS-feed">Subscribe to our RSS-feed <i
+            class="fa fa-rss"></i></a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="col-sm-11 news-list">
+    <div class="news-list-col margin-bottom-40">
+      <h2 class="heading-line">
+        <span>Events</span>
+      </h2>
+      <div class="news-items">
+        {{ range first 5 (where .Pages "Section" "events") }}
+        <div class="row news-item">
+          <div class="col-sm-24 text-center">
+            <p class="margin-bottom-0">
+              <strong>{{ .Title }}</strong>
+            </p>
+            <p class="margin-bottom-0">{{ .Params.location }}</p>
+            <p>{{ .Params.event_date }}</p>
+          </div>
+          <div class="col-sm-24 text-center">
+            <p class="events-list-link">
+              <a class="btn btn-primary"
+                href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}">Learn
+                more</a>
+            </p>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+{{ .Content }}
+{{ end }}
