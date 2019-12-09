@@ -14,11 +14,13 @@
 <div class="row testimonial-container margin-top-30">
   {{ range first 3 .Site.Data.testimonials.items }}
   <div class="col-sm-8 margin-bottom-20 testimonial-item">
-    <div class="bg-primary padding-20 match-height-item">
-    <div class="testimonial-logo">
-      <img width="{{ .logo_width }}" class="img-responsive" src="{{ .logo }}" alt="{{ .alt }}">
-    </div>
-    <p class="title"><strong>{{ .title }}</strong></p>
+    <div class="padding-20 match-height-item">
+    <div class="testimonial-logo" style="--image-src:url({{ .logo }});"></div>
+    <p class="title">
+      <strong>{{ .name }}</strong>
+      <span>{{ .title }}</span>
+      <span>{{ .company }}</span>
+    </p>
     <p class="content">"{{ .text }}"</p>
     </div>
   </div>
@@ -29,10 +31,8 @@
     <div class="row testimonial-container">
     {{ range after 3 .Site.Data.testimonials.items }}
       <div class="col-sm-8 margin-bottom-20 testimonial-item">
-        <div class="bg-primary padding-20 match-height-item">
-        <div class="testimonial-logo">
-          <img width="{{ .logo_width }}" class="img-responsive" src="{{ .logo }}" alt="{{ .alt }}">
-        </div>
+        <div class="padding-20 match-height-item">
+          <div class="testimonial-logo" style="--image-src:url({{ .logo }});"></div>
         <p class="title"><strong>{{ .title }}</strong></p>
         <p class="content">"{{ .text }}"</p>
         </div>
@@ -42,7 +42,6 @@
   </div>
 {{ end }}
 {{ if gt (len .Site.Data.testimonials.items) 3 }}
-  <hr>
   <ul class="text-center margin-top-15 list-inline">
     <li><a data-toggle-text="Close" role="button" data-toggle="collapse" href="#featured-more-items" aria-expanded="true" aria-controls="featured-more-items" class="btn btn-primary toggle-text">View More</a></li>
   </ul>
