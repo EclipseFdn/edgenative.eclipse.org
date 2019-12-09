@@ -84,9 +84,9 @@
 }
 .featured-section-testimonials,
 .featured-section-connect{
-	text-align:center;
-	 background-image:url('../static/images/edgenative/homepage/testimonials-image.jpg');
-	
+  text-align:center;
+  background-color: @brand-quaternary;
+	color: @brand-tertiary;
 }
 .featured-section-faq{
 	margin-bottom:-60px;
@@ -140,10 +140,15 @@
       }
     }
     .title {
-      font-size:16px;
+      font-size:18px;
+      display: flex;
+      flex-direction: column;
+      strong {
+        font-size: larger;
+      }
     }
     .content {
-      font-size:14px;
+      font-size:16px;
     }
   }
 }
@@ -163,4 +168,11 @@
 
 .founder-logo {
   filter: grayscale(1) contrast(0)
+}
+
+.section-title {
+  text-transform: uppercase;
+}
+.inverted-title {
+  color: white!important;
 }

@@ -31,7 +31,7 @@ items:
     title: Chief Technology Officer
     company: Eurotech
     text: As a founding member of the Eclipse IoT WG, we're excited to contribute to this new initiative of the Eclipse Foundation and to shape the future of edge technology. The Edge Native Working Group will help to drive open collaboration and speed adoption for the entire ecosystem.
-    logo: /images/edgenative/members/eurotech.svg
+    logo: /images/edgenative/testimonies/career.png
     alt: "Eurotech"
     logo_width: 90
 
@@ -49,7 +49,7 @@ items:
     title: Chief Executive Officer
     company: Kynetics
     text: The creation of this edge computing-focused working group is an important step forward for the industry and in particular for us and our next OS products. [...] I have no doubt the Edge Native Working Group will have as much visibility and market presence in developing and shipping great code as the Eclipse Foundation has had with the IoT. [...].
-    logo: /images/edgenative/members/kynetics-landscape.svg
+    logo: /images/edgenative/testimonies/la_gloria.png
     alt: "Kynetics"
     logo_width: 90
  

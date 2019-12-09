@@ -20,7 +20,7 @@ container: "container-fluid"
   <div class="container">
   <div class="row">
   <div class="col-sm-12">
-    <h2>Mission Statement</h2>
+    <h2 class="section-title inverted-title">Mission Statement</h2>
     <p>To deliver production-ready open source platforms for the development, operation, and management of Edge Native applications.</p>
     <p class="margin-reset"><a class="btn btn-primary" href="https://www.eclipse.org/org/workinggroups/eclipse_edge_charter.php">Learn More</a></p>
      </div>
@@ -37,7 +37,7 @@ container: "container-fluid"
 <!-- start: Founding Members -->
 <div id="members" class="row featured-section featured-section-members">
   <div class="container">
-  <h2>Founding Members</h2>
+  <h2 class="section-title">Founding Members</h2>
   {{< members >}}
   </div>
 </div>
@@ -46,7 +46,7 @@ container: "container-fluid"
 <!-- start: Testimonials -->
 <div id="testimonials" class="row featured-section featured-section-primary featured-section-testimonials">
   <div class="container">
-    <h2>Testimonials</h2>
+    <h2 class="section-title">Testimonials</h2>
     {{< testimonials >}}
   </div>
 </div>
