@@ -57,7 +57,7 @@ container: "container-fluid"
   <div class="container">
     <div class="row">
       <div class="col-md-16 col-sm-offset-1">
-        <h2 class="header-underline">Frequently Asked Questions</h2>
+        <h2 class="header-underline section-title">Frequently Asked Questions</h2>
         <p>Why is the Eclipse Foundation creating this working group now? How is the Eclipse Edge Native working group distinct from Eclipse IoT? How do I join? Get answers to all these questions and more in our FAQ.</p>
         <p><a href="/about/faq" class="btn btn-primary">Learn more</a><p>
       </div>
