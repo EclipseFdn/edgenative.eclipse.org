@@ -51,11 +51,16 @@ pluralizeListTitles = false
 
 [markup.goldmark.renderer]
   unsafe= true
-  
+
+[[menu.main]]
+    name = "About"
+    url = "/about/faq"
+    weight = 1
+
 [[menu.main]]
     name = "Members"
     url = "/#members"
-    weight = 1
+    weight = 2
 
 [[menu.main]]
     name = "Testimonials"
@@ -63,11 +68,7 @@ pluralizeListTitles = false
     weight = 2
 
 [[menu.main]]
-    name = "Join Us"
+    name = "Join"
     url = "https://accounts.eclipse.org/contact/membership"
     weight = 2
 
-[[menu.main]]
-    name = "FAQ"
-    url = "/about/faq"
-    weight = 3
