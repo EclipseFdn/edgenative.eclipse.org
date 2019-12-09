@@ -11,9 +11,9 @@ pluralizeListTitles = false
 
 [Params]
   google_tag_manager = "GTM-5WLCZXC"
-  description = "The Edge Native WG delivers production-ready open platforms for edge native applications deployed where compute and storage are physically distributed."
+  description = "The Edge Native WG delivers production-ready open source platforms for edge native applications deployed where compute and storage are physically distributed."
   seo_title_suffix = " | The Eclipse Foundation"
-  keywords = ["edge", "compute", "platforms", "runtimes", "AI", "autonomous", "5G", "IoT", "open source"]
+  keywords = ["edge", "compute", "cloud", "platforms", "runtimes", "AI", "autonomous", "5G", "IoT", "open source"]
   logo = "images/edgenative/edge-logo-white-horizontal.svg"
   styles = "css/styles.css"
   favicon = "images/edgenative/favicon/favicon.ico"
@@ -48,6 +48,9 @@ pluralizeListTitles = false
 [blackfriday]
   plainIDAnchors = true
   hrefTargetBlank = true
+
+[markup.goldmark.renderer]
+  unsafe= true
   
 [[menu.main]]
     name = "Members"
@@ -68,3 +71,4 @@ pluralizeListTitles = false
     name = "FAQ"
     url = "/about/faq"
     weight = 3
+
