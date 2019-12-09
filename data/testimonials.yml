@@ -8,7 +8,7 @@ items:
     
   -
     title: Evan Xiao, Vice president, Strategy and Industry Development, Huawei Technologies Co., Ltd 
-    text: Building a strong open ecosystem community for the emerging geo-distributed Edge Native platform is fundamentally important to the success of IoT across various industry sectors. While edge devices are heterogeneous and domain specific, they share much common decentralized software characteristics towards IT, CT, and OT convergence. We are thrilled to participate in the Eclipse Edge Native working group as contributors to building a unified open distributed edge framework for discovering, sharing, and moving data, as well as storage, analytics, and governance across heterogeneous clients, edges, and clouds.
+    text: Building a strong open ecosystem community for the emerging geo-distributed Edge Native platform is fundamentally important to the success of IoT across various industry sectors. While edge devices are heterogeneous and domain specific, they share much common decentralized software characteristics towards IT, CT, and OT convergence. We are thrilled to participate in the Eclipse Edge Native Working Group  as contributors to building a unified open distributed edge framework for discovering, sharing, and moving data, as well as storage, analytics, and governance across heterogeneous clients, edges, and clouds.
     logo: /images/edgenative/members/huawei.svg
     alt: "Huawei"
     logo_width: 90
