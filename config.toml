@@ -71,4 +71,3 @@ pluralizeListTitles = false
     name = "FAQ"
     url = "/about/faq"
     weight = 3
-
