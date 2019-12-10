@@ -18,6 +18,13 @@
   background-position: 0 100%;
   .featured-jumbotron{
     padding-top:48px;
+    .btn {
+      background-color: rgba(239, 239, 239, 0.2);
+      border: none;
+      &:hover {
+        background-color: #a30054;
+      }
+    }
   }
 }
 
@@ -43,6 +50,13 @@
   h2 {
     color: white!important; // Could not find a better way to override .featured-section-primary h2
     text-transform: uppercase;
+  }
+  .button {
+    background-color: rgba(239, 239, 239, 0.2);
+    border: none;
+    &:hover {
+      background-color: #a30054;
+    }
   }
 }
 .featured-section{
@@ -93,6 +107,13 @@
   h2 {
     text-transform: uppercase;
     color: white;
+  }
+  .btn {
+    background-color: rgba(239, 239, 239, 0.2);
+    border: none;
+    &:hover {
+      background-color: #a30054;
+    }
   }
 }
 
@@ -166,5 +187,16 @@
 }
 
 .founder-logo {
-  // filter: grayscale(1) contrast(0)
+  //filter: grayscale(1) contrast(0)
+}
+
+.section-title {
+  text-transform: uppercase;
+}
+.inverted-title {
+  color: white!important;
+}
+
+footer#solstice-footer h2 {
+  color: @brand-tertiary;
 }
