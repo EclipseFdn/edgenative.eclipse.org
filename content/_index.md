@@ -2,7 +2,7 @@
 title: "Edge Native"
 seo_title: "Edge Native Working Group"
 headline: "Edge Native Working Group"
-tagline: "Deploying Open Source Edge Platforms. Now."
+tagline: "Delivering Open Source Edge Platforms. Now."
 description: "The Edge Native WG delivers production-ready open source platforms for edge native applications."
 hide_page_title: true
 hide_sidebar: true
