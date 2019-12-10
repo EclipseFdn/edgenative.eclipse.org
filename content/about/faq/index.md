@@ -43,6 +43,8 @@ For example, Artificial intelligence is a big one. Imagine an AI application tha
 
 Autonomous vehicles are another very important application for edge computing. In this case, the latency that occurs when data is sent from the vehicle to the cloud and back again creates huge safety issues. The average latency using the cloud is about 250 milliseconds. But, vehicle safety relies on sub-one-millisecond latency. The only way to respond 250 times faster is to move the compute power and software inside the vehicle.
 
+Geographically distributed storage is a powerful application of edge computing. By keeping data closer to its source and deploying compute power near it, edge computing addresses both data sovereignty and networking challenges. Geographical distribution is also an important factor in reducing latency.
+
 Finally, industrial automation and robotics are a huge opportunity for Edge Native applications. Moving compute and storage close to machines or even inside robots will make factories more resilient and productive.
 
 In each of these use cases, there will likely be multiple edges, not just the cameras, vehicles, and factory equipment. The Eclipse Edge Native Working Group focuses on edge compute platforms that provide real code to address the challenges of working on all edges in the cloud-to-edge continuum.
@@ -54,7 +56,7 @@ A. The two flagship projects are Eclipse ioFog and Eclipse fog05.  The Edge Nati
 
 While, Eclipse ioFog is a platform architected for the edge and focuses on providing edge primitives that abstract away the complexities of the edge, namely challenges of connectivity, power management, hardware diversity, and security that are not present in cloud and data center, it is a natural extension of the cloud. ioFog focuses on bringing Cloud Native architectures to the edge, such that developers can easily manage, orchestrate and deploy microservices to any edge in the cloud-to-edge contiuum. 
 
-Wheras ioFog focuses on the cloud-to-edge fabric and how to seamlessly bring it all together to extend the cloud, Eclipse fog05 takes advantage of the far edge. Fog05 has been used to deploy mission critical edge processing to provide real-time processing and communications.  The project has been wildly successful in areas such as robotics, smart factory, and telecommunications.
+Whereas ioFog focuses on the cloud-to-edge fabric and how to seamlessly bring it all together to extend the cloud, Eclipse fog05 takes advantage of the far edge. Fog05 has been used to deploy mission critical edge processing to provide real-time processing and communications.  The project has been wildly successful in areas such as robotics, smart factory, and telecommunications. In addition, the zenoh project, which underpins fog05 and provides a stack that unifies data in motion, data in-use and data at rest, has recently been proposed as a contribution to the Eclipse Edge Native working group.
 
 Both of these projects can work independently or be used in tandem to provide a full stack solution from the cloud to the far edge and everywhere in between. 
 
