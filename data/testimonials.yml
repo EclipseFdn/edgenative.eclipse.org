@@ -1,7 +1,7 @@
 items:
   -
-    name: Angelo Corsaro
-    title: PhD, Chief Technology Officer
+    name: Angelo Corsaro, PhD
+    title: Chief Technology Officer
     company: ADLINK Technologies Inc.
     text: The Eclipse Foundation’s Edge Native Working Group will have a pivotal role in establishing the Open Source Edge-Native reference platform and, as such, accelerate the adoption of edge native architectures. ADLINK is thrilled to be part of this team — let’s shape the future of Edge Computing together.
     logo: /images/edgenative/testimonies/corsaro.jpeg
@@ -9,17 +9,8 @@ items:
     logo_width: 90
     
   -
-    name: Evan Xiao
-    title: Vice president, Strategy and Industry Development
-    company: Huawei Technologies Co., Ltd
-    text: Building a strong open ecosystem community for the emerging geo-distributed Edge Native platform is fundamentally important to the success of IoT across various industry sectors. While edge devices are heterogeneous and domain specific, they share much common decentralized software characteristics towards IT, CT, and OT convergence. We are thrilled to participate in the Eclipse Edge Native Working Group  as contributors to building a unified open distributed edge framework for discovering, sharing, and moving data, as well as storage, analytics, and governance across heterogeneous clients, edges, and clouds.
-    logo: /images/edgenative/testimonies/xiao.jpeg
-    alt: "Huawei"
-    logo_width: 90
-
-  -
     name: Kilton Hopkins,
-    title: Co-Founder and Chief Executive Officer
+    title: Co-Founder and CEO
     company: Edgeworx, Inc.
     text: The Eclipse Foundation is doing the same thing for edge computing that it did for IoT. We’re acknowledging that edge computing has its own requirements, challenges, and industry-wide concerns that are different from those found in all other sectors. There’s enough going on in the industry that it’s time to address the particular challenges associated with edge computing in a very focused way.
     logo: /images/edgenative/testimonies/hopkins.jpeg
@@ -48,9 +39,18 @@ items:
     name: Nicola La Gloria
     title: Chief Executive Officer
     company: Kynetics
-    text: The creation of this edge computing-focused working group is an important step forward for the industry and in particular for us and our next OS products. [...] I have no doubt the Edge Native Working Group will have as much visibility and market presence in developing and shipping great code as the Eclipse Foundation has had with the IoT. [...].
+    text: The creation of this edge computing-focused working group is an important step forward for the industry and in particular for us and our next OS products. [...] I have no doubt the Edge Native Working Group will have as much visibility and market presence in developing and shipping great code as the Eclipse Foundation has had with the IoT.
     logo: /images/edgenative/testimonies/la_gloria.jpg
     alt: "Kynetics"
+    logo_width: 90
+    
+
+  - name: Evan Xiao
+    title: VP, Strategy and Industry Development
+    company: Huawei Technologies Co., Ltd
+    text: Building a strong open ecosystem community for the emerging geo-distributed Edge Native platform is fundamentally important to the success of IoT across various industry sectors. While edge devices are heterogeneous and domain specific, they share much common decentralized software characteristics towards IT, CT, and OT convergence. We are thrilled to participate in the Eclipse Edge Native Working Group  as contributors to building a unified open distributed edge framework for discovering, sharing, and moving data, as well as storage, analytics, and governance across heterogeneous clients, edges, and clouds.
+    logo: /images/edgenative/testimonies/xiao.jpeg
+    alt: "Huawei"
     logo_width: 90
  
  
