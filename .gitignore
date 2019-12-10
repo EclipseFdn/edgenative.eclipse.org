@@ -5,3 +5,4 @@
 /static/css/
 /public/
 /layouts/robots.txt
+.idea/**

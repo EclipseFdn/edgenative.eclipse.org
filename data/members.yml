@@ -2,7 +2,7 @@ types:
   - name: members
     items:
     -
-      image: /images/edgenative/members/adlink.svg
+      image: /images/edgenative/members/logo-a_d_l_i_n_k.svg
       title: ADLINK
       link: https://www.adlinktech.com/en/index
       img_width: 200
