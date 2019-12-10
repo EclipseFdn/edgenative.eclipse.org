@@ -21,7 +21,7 @@ items:
     name: Marco Carrer
     title: Chief Technology Officer
     company: Eurotech
-    text: As a founding member of the Eclipse IoT WG, we're excited to contribute to this new initiative of the Eclipse Foundation and to shape the future of edge technology. The Edge Native Working Group will help to drive open collaboration and speed adoption for the entire ecosystem.
+    text: We're excited to contribute to this new initiative of the Eclipse Foundation and to shape the future of edge technology. The Edge Native Working Group will help to drive open collaboration and speed adoption for the entire ecosystem.
     logo: /images/edgenative/testimonies/carrer.jpg
     alt: "Eurotech"
     logo_width: 90
@@ -30,7 +30,7 @@ items:
     name: Stefan Ferber
     title: Chief Executive Officer
     company: Bosch Software Innovations
-    text: The Eclipse Edge Native Working Group provides an excellent opportunity for Bosch to collaborate on standard technology for implementing solutions in this trending market segment. We consider this to be a logical next step in addition to our ongoing efforts within the Eclipse IoT Working Group.
+    text: The Eclipse Edge Native Working Group provides an excellent opportunity for Bosch to collaborate on standard technology for implementing solutions in this trending market segment. 
     logo: /images/edgenative/testimonies/ferber.jpeg
     alt: "Bosch"
     logo_width: 90
@@ -39,7 +39,7 @@ items:
     name: Nicola La Gloria
     title: Chief Executive Officer
     company: Kynetics
-    text: The creation of this edge computing-focused working group is an important step forward for the industry and in particular for us and our next OS products. [...] I have no doubt the Edge Native Working Group will have as much visibility and market presence in developing and shipping great code as the Eclipse Foundation has had with the IoT.
+    text: The creation of this edge computing-focused working group is an important step forward for the industry and in particular for us and our next OS products. [...] I have no doubt the Edge Native Working Group will have significant visibility and market presence in developing and shipping great code.
     logo: /images/edgenative/testimonies/la_gloria.jpg
     alt: "Kynetics"
     logo_width: 90
