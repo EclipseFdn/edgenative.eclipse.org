@@ -18,10 +18,6 @@
   background-position: 0 100%;
   .featured-jumbotron{
     padding-top:48px;
-    .btn{
-      background-color: rgba(239, 239,239, 0.2)!important;
-      border: none!important;
-    }
   }
 }
 
@@ -45,12 +41,8 @@
   background: rgb(250,174,68);
   background: linear-gradient(-77deg, rgba(250,174,68,1) 0%, rgba(237,42,40,1) 50%, rgba(124,72,155,1) 100%);
   h2 {
-    color: white!important;
+    color: white!important; // Could not find a better way to override .featured-section-primary h2
     text-transform: uppercase;
-  }
-  .button {
-    background-color: rgba(239, 239,239, 0.2)!important;
-    border: none!important;
   }
 }
 .featured-section{
@@ -89,15 +81,18 @@
 	color: @brand-tertiary;
 }
 .featured-section-faq{
-	margin-bottom:-60px;
+  margin-bottom:-60px;
+  h2 {
+    text-transform: uppercase;
+  }
 }
 .featured-section-statement{
   padding-left: 40px;
   background: rgb(250,174,68);
   background: linear-gradient(-77deg, rgba(250,174,68,1) 0%, rgba(237,42,40,1) 50%, rgba(124,72,155,1) 100%);
-  .btn{
-    background-color: rgba(239, 239,239, 0.2)!important;
-    border: none!important;
+  h2 {
+    text-transform: uppercase;
+    color: white;
   }
 }
 
@@ -110,16 +105,19 @@
 	text-align:center;
 	li{
 	 padding:10px;
-	}
-	h2{
-	
-	}
+  }  
+  h2 {
+    text-transform: uppercase;
+  }
 	img{
 	
 	}
 }
 
 .featured-section-testimonials {
+  h2 {
+    text-transform: uppercase;
+  }
   .testimonial-item {
     margin-top:120px;
     .testimonial-logo {
@@ -149,7 +147,7 @@
       }
     }
     .content {
-      font-size:14px;
+      font-size:16px;
     }
   }
 }
@@ -168,12 +166,5 @@
 }
 
 .founder-logo {
-  //filter: grayscale(1) contrast(0)
-}
-
-.section-title {
-  text-transform: uppercase;
-}
-.inverted-title {
-  color: white!important;
+  // filter: grayscale(1) contrast(0)
 }

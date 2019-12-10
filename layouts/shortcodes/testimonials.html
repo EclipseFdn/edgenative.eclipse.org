@@ -33,7 +33,11 @@
       <div class="col-sm-8 margin-bottom-20 testimonial-item">
         <div class="padding-20 match-height-item">
           <div class="testimonial-logo" style="--image-src:url({{ .logo }});"></div>
-        <p class="title"><strong>{{ .title }}</strong></p>
+          <p class="title">
+            <strong>{{ .name }}</strong>
+            <span>{{ .title }}</span>
+            <span>{{ .company }}</span>
+          </p>
         <p class="content">"{{ .text }}"</p>
         </div>
       </div>
