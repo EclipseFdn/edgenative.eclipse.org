@@ -14,7 +14,7 @@
 <div class="row testimonial-container margin-top-30">
   {{ range first 3 .Site.Data.testimonials.items }}
   <div class="col-sm-8 margin-bottom-20 testimonial-item">
-    <div class="padding-20 match-height-item">
+    <div class="padding-20">
     <div class="testimonial-logo" style="--image-src:url({{ .logo }});"></div>
     <p class="title">
       <strong>{{ .name }}</strong>
@@ -31,7 +31,7 @@
     <div class="row testimonial-container">
     {{ range after 3 .Site.Data.testimonials.items }}
       <div class="col-sm-8 margin-bottom-20 testimonial-item">
-        <div class="padding-20 match-height-item">
+        <div class="padding-20">
           <div class="testimonial-logo" style="--image-src:url({{ .logo }});"></div>
           <p class="title">
             <strong>{{ .name }}</strong>
