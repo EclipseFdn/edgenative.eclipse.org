@@ -6,3 +6,5 @@
 /public/
 /layouts/robots.txt
 .idea/**
+**/.DS_Store
+
