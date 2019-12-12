@@ -45,8 +45,9 @@
     </div>
   </div>
 {{ end }}
+
 {{ if gt (len .Site.Data.testimonials.items) 3 }}
-  <ul class="text-center margin-top-15 list-inline">
-    <li><a data-toggle-text="Close" role="button" data-toggle="collapse" href="#featured-more-items" aria-expanded="true" aria-controls="featured-more-items" class="btn btn-primary toggle-text">View More</a></li>
-  </ul>
+  <p>
+    <a data-toggle-text="Close" role="button" data-toggle="collapse" href="#featured-more-items" aria-expanded="true" aria-controls="featured-more-items" class="btn btn-primary toggle-text">View More</a>
+  </p>
 {{ end }}

@@ -6,8 +6,8 @@ items:
         <polyline points="22,6 12,13 2,6"></polyline> 
       </svg>
     title: Stay Connected
-    footer_classes: featured-footer featured-section featured-section-primary featured-section-connect
-    link: <a class="button btn btn-primary" href="https://accounts.eclipse.org/mailing-list/edge-wg">Join our Mailing List</a> <a class="button btn btn-primary" href="https://accounts.eclipse.org/contact/membership">Contact Us</a>
+    footer_classes: featured-section featured-section-gradiant text-center
+    link: <a class="btn" href="https://accounts.eclipse.org/mailing-list/edge-wg">Join our Mailing List</a> <a class="btn" href="https://accounts.eclipse.org/contact/membership">Contact Us</a>
     startDate: 2019-07-18
     endDate: 2099-10-10
     type: footer

@@ -16,13 +16,13 @@ container: "container-fluid"
 ---
 
 <!-- start: Mission Statement -->
-<div id="statement" class="row featured-section featured-section-primary featured-section-statement">
+<div id="statement" class="row featured-section featured-section-gradiant featured-section-statement">
   <div class="container">
   <div class="row">
   <div class="col-sm-12">
     <h2>Mission Statement</h2>
     <p>To deliver production-ready open source platforms for the development, operation, and management of Edge Native applications.</p>
-    <p class="margin-reset"><a class="btn btn-primary" href="https://www.eclipse.org/org/workinggroups/eclipse_edge_charter.php">Learn More</a></p>
+    <p class="margin-reset"><a class="btn" href="https://www.eclipse.org/org/workinggroups/eclipse_edge_charter.php">Learn More</a></p>
      </div>
     <div class="col-sm-12">
         <div class="mission-circle margin-top-20">
@@ -35,7 +35,7 @@ container: "container-fluid"
 <!-- end: Mission Statement -->
 
 <!-- start: Founding Members -->
-<div id="members" class="row featured-section featured-section-members">
+<div id="members" class="row featured-section featured-section-members text-center">
   <div class="container">
   <h2>Founding Members</h2>
   {{< members >}}
@@ -44,7 +44,7 @@ container: "container-fluid"
 <!-- end: Founding Members -->
 
 <!-- start: Testimonials -->
-<div id="testimonials" class="row featured-section featured-section-primary featured-section-testimonials">
+<div id="testimonials" class="row featured-section featured-section-testimonials">
   <div class="container">
     <h2>Testimonials</h2>
     {{< testimonials >}}
@@ -59,10 +59,10 @@ container: "container-fluid"
       <div class="col-md-16 col-sm-offset-1">
         <h2 class="header-underline">Frequently Asked Questions</h2>
         <p>Why is the Eclipse Foundation creating this working group now? How is the Eclipse Edge Native working group distinct? How do I join? Get answers to all these questions and more in our FAQ.</p>
-        <p><a href="/about/faq" class="btn btn-primary">Learn more</a><p>
+        <p><a href="/about/faq" class="btn btn-primary">Learn more</a></p>
       </div>
       <div class="col-md-4 col-sm-offset-1 padding-top-20 hidden-xs hidden-sm">
-        <img class="img-responsive" src="/images/edgenative/homepage/faq-icon.svg">
+        <img class="img-responsive" src="/images/edgenative/faq/faq-icon.svg">
       </div>
     </div>
   </div>

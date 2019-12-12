@@ -14,17 +14,34 @@
 @import '~eclipsefdn-solstice-assets/less/quicksilver/styles.less';
 @import '_variables.less';
 
-.header-wrapper{ 
+#header-wrapper{
+  background-image: url('images/header-background.png');
+}
+
+.btn{
+  border: none;
+}
+
+.btn-with-grandiant {
+  .button-variant(#fff; #efefef; #efefef);
+  background-color: rgba(239, 239, 239, 0.2);
+  &:hover{
+    background-color: #a30054;
+  }
+}
+
+.logo-eclipse-default{
+  padding-top:9px;
+}
+
+.logo-eclipse-default-mobile{
+  max-width:260px;
+}
+
+.header-wrapper{
   background-position: 0 100%;
   .featured-jumbotron{
     padding-top:48px;
-    .btn {
-      background-color: rgba(239, 239, 239, 0.2);
-      border: none;
-      &:hover {
-        background-color: #a30054;
-      }
-    }
   }
 }
 
@@ -35,7 +52,7 @@
 .news-list .news-list-col {
   margin-bottom:0;
   padding-bottom:0;
-  h2.heading-line  {
+  h2.heading-line {
     text-align:center;
     border-bottom: 1px solid #ccc;
     padding-bottom: 5px;
@@ -44,29 +61,13 @@
 
 .news-list {
   .media-link:hover {
-    box-shadow: 5px 5px 5px @brand-tertiary;
+    box-shadow: 3px 3px 3px #cecece;
     background-color: white;
   }
 } 
 
-.featured-footer{
-  margin-top:50px;
-  color: white;
-  background: rgb(250,174,68);
-  background: linear-gradient(-77deg, rgba(250,174,68,1) 0%, rgba(237,42,40,1) 50%, rgba(124,72,155,1) 100%);
-  h2 {
-    color: white!important; // Could not find a better way to override .featured-section-primary h2
-    text-transform: uppercase;
-  }
-  .button {
-    background-color: rgba(239, 239, 239, 0.2);
-    border: none;
-    &:hover {
-      background-color: #a30054;
-    }
-  }
-}
 .featured-section{
+  background-size:cover;
   padding: 60px 0 60px 0;
   background-position: 0 100%;
   font-size:19px;
@@ -76,6 +77,7 @@
     margin-bottom: 20px;
     color: @brand-primary;
     margin-top:0;
+    text-transform: uppercase;
   }
   p{
     margin-bottom:20px;
@@ -83,100 +85,73 @@
       margin-bottom:0;
     }
   }
+  .feather {
+    width: 40px;
+    height: 40px;
+  }
 }
-.logo-eclipse-default{
-	padding-top:9px;
+
+.featured-section-gradiant{
+  background: @brand-gradient-color;
+  background: @brand-gradient;
+  color: #fff;
+  h2 {
+    color: white;
+  }
+  .btn{
+    .btn-with-grandiant;
+  }
 }
-.featured-section-primary{
-   background-size:cover;
-   background-color:@brand-tertiary;
-   color: #fff;
-   h2 {
-     color: @brand-primary;
-   }
+
+.featured-section-statement{
+  padding-left: 40px;
 }
+
 .featured-section-testimonials,
 .featured-section-connect{
   text-align:center;
   background-color: @brand-quaternary;
-	color: @brand-tertiary;
-}
-.featured-section-faq{
-  margin-bottom:-60px;
-  h2 {
-    text-transform: uppercase;
-  }
-}
-.featured-section-statement{
-  padding-left: 40px;
-  background: rgb(250,174,68);
-  background: linear-gradient(-77deg, rgba(250,174,68,1) 0%, rgba(237,42,40,1) 50%, rgba(124,72,155,1) 100%);
-  h2 {
-    text-transform: uppercase;
-    color: white;
-  }
-  .btn {
-    background-color: rgba(239, 239, 239, 0.2);
-    border: none;
-    &:hover {
-      background-color: #a30054;
-    }
-  }
+  color: @brand-tertiary;
 }
 
-.logo-eclipse-default-mobile{
-	max-width:260px;
-}
 .featured-section-members {
-    padding-top: 80px;
-    padding-bottom: 80px;
-	text-align:center;
-	li{
-	 padding:10px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  li {
+   padding:10px;
   }  
-  h2 {
-    text-transform: uppercase;
-  }
-	img{
-	
-	}
 }
 
-.featured-section-testimonials {
-  h2 {
-    text-transform: uppercase;
+.testimonial-item {
+  margin-top:120px;
+  .testimonial-logo {
+    background-image: var(--image-src);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: luminosity;
+    background-color: #00768A;
+    filter: opacity(0.9);
+    border-radius: 150px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    margin: -120px auto 30px;
+    position: relative;
+    img {
+      margin:0 auto;
+    }
   }
-  .testimonial-item {
-    margin-top:120px;
-    .testimonial-logo {
-      background-image: var(--image-src);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-blend-mode: luminosity;
-      background-color: #00768A;
-      filter: opacity(0.9);
-      border-radius: 150px;
-      width: 150px;
-      height: 150px;
-      display: flex;
-      align-items: center;
-      margin: -120px auto 30px;
-      position: relative;
-      img {
-        margin:0 auto;
-      }
+  .title {
+    font-size:18px;
+    display: flex;
+    flex-direction: column;
+    strong {
+      font-size: larger;
     }
-    .title {
-      font-size:18px;
-      display: flex;
-      flex-direction: column;
-      strong {
-        font-size: larger;
-      }
-    }
-    .content {
-      font-size:16px;
-    }
+  }
+  .content {
+    font-size:16px;
   }
 }
 
@@ -191,12 +166,4 @@
   img{
     margin-top:45px;
   }
-}
-
-.founder-logo {
-  //filter: grayscale(1) contrast(0)
-}
-
-footer#solstice-footer h2 {
-  color: @brand-tertiary;
 }
