@@ -15,7 +15,12 @@
 @import '_variables.less';
 
 #header-wrapper{
+  background-size:cover;
   background-image: url('images/header-background.png');
+  background-position: 0 100%;
+  .featured-jumbotron{
+    padding-top:48px;
+  }
 }
 
 .btn{
@@ -36,13 +41,6 @@
 
 .logo-eclipse-default-mobile{
   max-width:260px;
-}
-
-.header-wrapper{
-  background-position: 0 100%;
-  .featured-jumbotron{
-    padding-top:48px;
-  }
 }
 
 .featured-ad a{
@@ -67,12 +65,10 @@
 } 
 
 .featured-section{
-  background-size:cover;
   padding: 60px 0 60px 0;
   background-position: 0 100%;
   font-size:19px;
   h2{
-    font-size: 22px;
     font-size: 34px;
     margin-bottom: 20px;
     color: @brand-primary;
@@ -165,5 +161,19 @@
   margin:0px auto 0;
   img{
     margin-top:45px;
+  }
+}
+
+.event-list a:visited{
+  color: @brand-tertiary;
+}
+
+@media (max-width: @screen-xs-max) {
+  .featured-section-faq,
+  .featured-section-statement{
+    text-align:center;
+  }
+  .mission-circle{
+    margin-top: 50px;
   }
 }

@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="container" id="content">
   <div class="row margin-top-50 margin-bottom-50">
-    <div class="col-sm-13 news-list">
+    <div class="col-sm-16 news-list">
       <div class="news-list-col margin-bottom-40">
         <h2 class="heading-line">
           <span>What's New?</span>
@@ -25,27 +25,20 @@
         </ul>
       </div>
     </div>
-    <div class="col-sm-11 news-list">
+    <div class="col-sm-8 news-list event-list">
       <div class="news-list-col margin-bottom-40">
         <h2 class="heading-line">
           <span>Events</span>
         </h2>
         <div class="news-items">
           {{ range first 5 (where .Pages "Section" "events") }}
-          <div class="row news-item padding-bottom-5">
-            <div class="col-sm-16">
+          <div class="row news-item text-center padding-bottom-15">
+            <div class="col-sm-24">
               <p class="margin-bottom-0">
-                <strong>{{ .Title }}</strong>
+                <a class="fw-700" href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}">{{ .Title }}</a>
               </p>
               <p class="margin-bottom-0">{{ .Params.location }}</p>
               <p>{{ .Params.event_date }}</p>
-            </div>
-            <div class="col-sm-8">
-              <p class="events-list-link">
-                <a class="btn btn-primary"
-                  href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}">Learn
-                  more</a>
-              </p>
             </div>
           </div>
           {{ end }}
