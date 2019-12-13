@@ -18,18 +18,18 @@ container: "container-fluid"
 <!-- start: Mission Statement -->
 <div id="statement" class="row featured-section featured-section-gradiant featured-section-statement">
   <div class="container">
-  <div class="row">
-  <div class="col-sm-12">
-    <h2>Mission Statement</h2>
-    <p>To deliver production-ready open source platforms for the development, operation, and management of Edge Native applications.</p>
-    <p class="margin-reset"><a class="btn" href="https://www.eclipse.org/org/workinggroups/eclipse_edge_charter.php">Learn More</a></p>
-     </div>
-    <div class="col-sm-12">
+    <div class="row">
+      <div class="col-sm-offset-1 col-sm-12">
+        <h2>Mission Statement</h2>
+        <p>To deliver production-ready open source platforms for the development, operation, and management of Edge Native applications.</p>
+        <p class="margin-reset"><a class="btn" href="https://www.eclipse.org/org/workinggroups/eclipse_edge_charter.php">Learn More</a></p>
+      </div>
+      <div class="col-sm-11">
         <div class="mission-circle margin-top-20">
           <img class="img-responsive" src="/images/edgenative/edge-logo-clr-stacked-mission-statement.svg" alt="Edge Native Working Group logo">
         </div>
       </div>
-     </div>
+    </div>
   </div>
 </div>
 <!-- end: Mission Statement -->
@@ -37,8 +37,8 @@ container: "container-fluid"
 <!-- start: Founding Members -->
 <div id="members" class="row featured-section featured-section-members text-center">
   <div class="container">
-  <h2>Founding Members</h2>
-  {{< members >}}
+    <h2>Founding Members</h2>
+    {{< members >}}
   </div>
 </div>
 <!-- end: Founding Members -->
