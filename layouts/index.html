@@ -32,16 +32,19 @@
             <span>Events</span>
           </h2>
           <div class="news-items">
-            {{ range first 5 (where .Pages "Section" "events") }}
-            <div class="row news-item text-center padding-bottom-15">
-              <div class="col-sm-24">
-                <p class="margin-bottom-0">
-                  <a class="fw-700" href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}">{{ .Title }}</a>
-                </p>
-                <p class="margin-bottom-0">{{ .Params.location }}</p>
-                <p>{{ .Params.event_date }}</p>
-              </div>
-            </div>
+            {{ range first 5 (sort (where .Pages "Section" "events") "Params.expire_date") }}
+              {{ $t := time .Params.expire_date }}
+              {{ if $t.After now }}
+	            <div class="row news-item text-center padding-bottom-15">
+	              <div class="col-sm-24">
+	                <p class="margin-bottom-0">
+	                  <a class="fw-700" href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}">{{ .Title }}</a>
+	                </p>
+	                <p class="margin-bottom-0">{{ .Params.location }}</p>
+	                <p>{{ .Params.event_date }}</p>
+	              </div>
+	            </div>
+              {{ end }}
             {{ end }}
           </div>
         </div>
