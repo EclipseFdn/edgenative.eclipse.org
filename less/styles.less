@@ -28,10 +28,9 @@
 }
 
 .btn-with-grandiant {
-  .button-variant(#fff; #efefef; #efefef);
-  background-color: rgba(239, 239, 239, 0.2);
-  &:hover{
-    background-color: #a30054;
+  .button-variant(@brand-primary; #fff; #efefef);
+  &.btn:hover{
+    background: ~'rgba(255,255,255, 0.85)';
   }
 }
 
@@ -99,7 +98,7 @@
   h2 {
     color: white;
   }
-  .btn{
+    .btn{
     .btn-with-grandiant;
   }
 }
