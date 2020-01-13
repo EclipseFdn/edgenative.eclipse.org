@@ -8,7 +8,7 @@
             <span>What's New?</span>
           </h2>
           <div class="news-list-media">
-            {{ range first 5 (where .Pages "Section" "news") }}
+            {{ range first 5 (where site.RegularPages "Section" "news") }}
             <div class="news-list">
               <a
                 href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}"
@@ -32,7 +32,7 @@
             <span>Events</span>
           </h2>
           <div class="news-items">
-            {{ range first 5 (sort (where .Pages "Section" "events") "Params.expire_date") }}
+            {{ range first 5 (sort (where site.RegularPages "Section" "events") "Params.expire_date") }}
               {{ $t := time .Params.expire_date }}
               {{ if $t.After now }}
 	            <div class="row news-item text-center padding-bottom-15">
