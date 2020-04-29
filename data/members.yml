@@ -42,3 +42,8 @@ types:
       title: Siemens
       link: https://new.siemens.com/global/en.html
       img_width: 200
+    -
+      image: /images/edgenative/members/logo-topio-networks.png
+      title: Topio Networks
+      link: https://www.topionetworks.com/
+      img_width: 150
