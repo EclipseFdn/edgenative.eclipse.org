@@ -8,6 +8,15 @@ items:
     title: Stay Connected
     footer_classes: featured-section featured-section-gradiant text-center
     link: <a class="btn btn-primary" href="https://accounts.eclipse.org/mailing-list/edge-wg">Join our Mailing List</a> <a class="btn btn-primary" href="https://accounts.eclipse.org/contact/membership">Contact Us</a>
-    startDate: 2019-07-18
+    startDate: 2020-06-28
     endDate: 2099-10-10
+    type: footer
+  -
+    preamble: <span class="text-uppercase">IoT 2020 Developer Survey</span>
+    title: <strong style="font-size:32px">Take the Survey Today</strong>
+    footer_classes: featured-section featured-section-gradiant text-center featured-story-survey
+    content: <div class="divider">May 11 to June 26</div>
+    link: <a class="btn btn-primary btn-lg" href="https://www.surveymonkey.com/r/JXSWQQH">Take the Survey</a>
+    startDate: 2020-05-11
+    endDate: 2020-06-27
     type: footer
