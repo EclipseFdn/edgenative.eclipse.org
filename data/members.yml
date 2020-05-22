@@ -38,11 +38,6 @@ types:
       link: https://www.kynetics.com/
       img_width: 200
     -
-      image: /images/edgenative/members/logo-open-source-robotics-foundation.png
-      title: Open Source Robotics Foundation
-      link: https://www.openrobotics.com/
-      img_width: 175
-    -
       image: /images/edgenative/members/siemens.svg
       title: Siemens
       link: https://new.siemens.com/global/en.html
