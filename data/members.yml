@@ -28,11 +28,6 @@ types:
       link: https://e.huawei.com/
       img_width: 200
     -
-      image: /images/edgenative/members/intel.svg
-      title: Intel
-      link: https://www.intel.com/content/www/us/en/homepage.html
-      img_width: 110
-    -
       image: /images/edgenative/members/kynetics-landscape.svg
       title: Kynetics
       link: https://www.kynetics.com/
