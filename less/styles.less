@@ -92,7 +92,7 @@
   }
 }
 
-.featured-section-gradiant{
+.featured-section-gradiant, .featured-section-connected {
   background: @brand-gradient-color;
   background: @brand-gradient;
   color: #fff;
@@ -101,6 +101,14 @@
   }
     .btn{
     .btn-with-grandiant;
+  }
+}
+
+.featured-footer.featured-story-dark {
+  &:extend(.featured-section-gradiant);
+
+  .btn{
+    &:extend(.btn-with-grandiant);
   }
 }
 

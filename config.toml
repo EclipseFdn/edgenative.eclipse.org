@@ -25,6 +25,7 @@ pluralizeListTitles = false
   header_left_classes = "col-sm-7"
   main_menu_wrapper_classes = "col-sm-17 margin-top-10"
   twitter_url = "https://twitter.com/EdgeNativeWG"
+  featured_content_publish_target = "edge_native"
   
 [taxonomies]
   category = "categories"
