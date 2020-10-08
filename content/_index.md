@@ -15,6 +15,11 @@ container: "container-fluid"
 ---
 
 {{< home-mission-statement >}}
+
 {{< home-founding-members >}}
+
 {{< home-testimonials >}}
+
 {{< home-faq >}}
+
+{{< home-stay-connected >}}
