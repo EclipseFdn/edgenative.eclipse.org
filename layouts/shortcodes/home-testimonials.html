@@ -20,7 +20,7 @@
       {{ range first 3 .Site.Data.testimonials.items }}
       <div class="col-sm-8 margin-bottom-20 testimonial-item">
         <div class="padding-20">
-        <div class="testimonial-logo" style="--image-src:url({{ .logo }});"></div>
+        <div class="testimonial-logo" style="background-image: url('{{ .logo }}'); --image-src:url({{ .logo }});"></div>
         <p class="title">
           <strong>{{ .name }}</strong>
           <span>{{ .title }}</span>
@@ -37,7 +37,7 @@
         {{ range after 3 .Site.Data.testimonials.items }}
           <div class="col-sm-8 margin-bottom-20 testimonial-item">
             <div class="padding-20">
-              <div class="testimonial-logo" style="--image-src:url({{ .logo }});"></div>
+              <div class="testimonial-logo" style="background-image: url('{{ .logo }}'); --image-src:url({{ .logo }});"></div>
               <p class="title">
                 <strong>{{ .name }}</strong>
                 <span>{{ .title }}</span>
