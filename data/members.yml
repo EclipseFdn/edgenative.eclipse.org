@@ -6,39 +6,47 @@ types:
       title: ADLINK
       link: https://www.adlinktech.com/en/index
       img_width: 200
+      img_height: 50
       
     -
       image: /images/edgenative/members/bosch.svg
       title: Bosch
       link: https://www.bosch-si.com/corporate/home/homepage.html
       img_width: 200
+      img_height: 55
     -
       image: /images/edgenative/members/edgeworx.svg
       title: Edgeworx
       link: https://edgeworx.io/
       img_width: 200
+      img_height: 55
     -
       image: /images/edgenative/members/eurotech.svg
       title: Eurotech
       link: https://www.eurotech.com/en
       img_width: 200
+      img_height: 50
     -
       image: /images/edgenative/members/huawei.svg
       title: Huawei
       link: https://e.huawei.com/
       img_width: 200
+      img_height: 65
     -
       image: /images/edgenative/members/kynetics-landscape.svg
       title: Kynetics
       link: https://www.kynetics.com/
       img_width: 200
+      img_height: 65
     -
       image: /images/edgenative/members/siemens.svg
       title: Siemens
       link: https://new.siemens.com/global/en.html
       img_width: 200
+      img_height: 45
     -
       image: /images/edgenative/members/logo-topio-networks.png
       title: Topio Networks
       link: https://www.topionetworks.com/
       img_width: 150
+      img_height: 40

@@ -15,7 +15,9 @@
     <h2>Founding Members</h2>
     <ul class="list-inline margin-bottom-0">
       {{ range $data.items }}
-        <li><a href="{{ .link }}"><img class="founder-logo" width="{{ .img_width }}" alt="{{ .title }}" src="{{ .image }}"></a></li>
+        <li><a href="{{ .link }}">
+          <img class="founder-logo" width="{{ .img_width }}" height="{{ .img_height }}" alt="{{ .title }}" src="{{ .image }}">
+        </a></li>
       {{ end }}
     </ul>
   </div>
