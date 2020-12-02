@@ -22,6 +22,6 @@
     "build_netlify": "NODE_ENV=production npm run disallow_robots_txt && npm run production"
   },
   "dependencies": {
-    "eclipsefdn-hugo-solstice-theme": "git+https://github.com/EclipseFdn/hugo-solstice-theme.git#3a67661a6c7b1ec4cc179d89eb9941dc3eb5b38e"
+    "eclipsefdn-hugo-solstice-theme": "0.0.107"
   }
 }

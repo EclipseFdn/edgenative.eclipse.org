@@ -64,7 +64,7 @@
         "name": "How can interested developers and organizations get involved?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "<p>A. If you want to get in on the ground floor, start by reviewing the charter and the Edge Native Working Group Participation Agreement (WPGA), or email us at <a href='mailto:membership@eclipse.org'>membership@eclipse.org</a>. Individually, developers can join the Edge WG mailing list where we’ll be sharing the progress of the working group. Edge is the way of the future, so join us now and take your seat at the table!</p>"
+          "text": "<p>A. If you want to get in on the ground floor, start by reviewing the <a href='https://www.eclipse.org/org/workinggroups/eclipse_edge_charter.php'>charter</a> and the Edge Native <a href='https://www.eclipse.org/org/workinggroups/wpga/eclipse_edge_working_group_participation_agreement.pdf'>Working Group Participation Agreement (WPGA)</a>, or email us at <a href='mailto:membership@eclipse.org'>membership@eclipse.org</a>. Individually, developers can join the Edge WG mailing list where we’ll be sharing the progress of the working group. Edge is the way of the future, so join us now and take your seat at the table!</p>"
         }
       }
     ]
