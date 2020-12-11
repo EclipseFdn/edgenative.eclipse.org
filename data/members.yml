@@ -54,5 +54,4 @@ types:
       image: /images/edgenative/members/logo-simple-matter.png
       title: Simple Matter
       link: https://simplematter.io/
-      # img_width: 150
       img_height: 60
