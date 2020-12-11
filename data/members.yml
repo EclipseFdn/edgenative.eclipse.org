@@ -50,3 +50,8 @@ types:
       link: https://www.topionetworks.com/
       img_width: 150
       img_height: 40
+    -
+      image: /images/edgenative/members/logo-simple-matter.png
+      title: Simple Matter
+      link: https://simplematter.io/
+      img_height: 60
