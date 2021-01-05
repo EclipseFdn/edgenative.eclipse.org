@@ -39,12 +39,6 @@ types:
       img_width: 200
       img_height: 65
     -
-      image: /images/edgenative/members/siemens.svg
-      title: Siemens
-      link: https://new.siemens.com/global/en.html
-      img_width: 200
-      img_height: 45
-    -
       image: /images/edgenative/members/logo-topio-networks.png
       title: Topio Networks
       link: https://www.topionetworks.com/
