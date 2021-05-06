@@ -1,22 +1,6 @@
-items:
-  -
-    preamble: |
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail">
-        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-        <polyline points="22,6 12,13 2,6"></polyline> 
-      </svg>
-    title: Stay Connected
-    footer_classes: featured-section featured-section-gradiant text-center
-    link: <a class="btn btn-primary" href="https://accounts.eclipse.org/mailing-list/edge-wg">Join our Mailing List</a> <a class="btn btn-primary" href="https://accounts.eclipse.org/contact/membership">Contact Us</a>
-    startDate: 2020-06-28
-    endDate: 2099-10-10
-    type: footer
-  -
-    preamble: <span class="text-uppercase">IoT 2020 Developer Survey</span>
-    title: <strong style="font-size:32px">TAKE THE IOT INDUSTRY'S LEADING DEVELOPER SURVEY TODAY</strong>
-    footer_classes: featured-section featured-section-gradiant text-center featured-story-survey
-    content: <div class="divider">May 11 - July 10</div>
-    link: <a class="btn btn-primary btn-lg" href="https://www.surveymonkey.com/r/JXSWQQH">Take the Survey</a>
-    startDate: 2020-05-11
-    endDate: 2020-07-10
-    type: footer
+defaultRight: |
+        <div>
+          <div><a style="float:none;"href="https://outreach.eclipse.foundation/edge-computing-edgeops-white-paper"><img style="float:none;" src="/images/edge-ops.png" width="150"></a></div>
+          <p style="margin-bottom:10px;">EdgeOps: A New Open Source Vision</p>
+          <p><a style="float:none;" class="btn btn-primary" href="https://outreach.eclipse.foundation/edge-computing-edgeops-white-paper">Download White Paper</a></p>
+        </div>
