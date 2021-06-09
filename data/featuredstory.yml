@@ -1,6 +1,6 @@
 defaultRight: |
         <div>
-          <div><a style="float:none;"href="https://outreach.eclipse.foundation/iot-edge-commercial-survey"><img style="float:none;" src="/images/iot-edge-adoption-survey.png" width="150"></a></div>
+          <div><a style="float:none;"href="https://outreach.eclipse.foundation/iot-edge-commercial-survey"><img style="float:none;" src="/images/iot-edge-adoption-survey.png" width="250"></a></div>
           <p style="margin-bottom:10px;">2021 IoT & Edge Commercial Adoption Survey</p>
           <p><a style="float:none;" class="btn btn-primary" href="https://outreach.eclipse.foundation/iot-edge-commercial-survey">Download the Report</a></p>
         </div>
