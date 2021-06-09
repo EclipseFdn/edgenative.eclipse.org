@@ -1,6 +1,6 @@
 defaultRight: |
         <div>
-          <div><a style="float:none;"href="https://outreach.eclipse.foundation/edge-computing-edgeops-white-paper"><img style="float:none;" src="/images/edge-ops.png" width="150"></a></div>
-          <p style="margin-bottom:10px;">EdgeOps: A New Open Source Vision</p>
-          <p><a style="float:none;" class="btn btn-primary" href="https://outreach.eclipse.foundation/edge-computing-edgeops-white-paper">Download White Paper</a></p>
+          <div><a style="float:none;"href="https://outreach.eclipse.foundation/iot-edge-commercial-survey"><img style="float:none;" src="/images/iot-edge-adoption-survey.png" width="150"></a></div>
+          <p style="margin-bottom:10px;">2021 IoT & Edge Commercial Adoption Survey</p>
+          <p><a style="float:none;" class="btn btn-primary" href="https://outreach.eclipse.foundation/iot-edge-commercial-survey">Download the Report</a></p>
         </div>
