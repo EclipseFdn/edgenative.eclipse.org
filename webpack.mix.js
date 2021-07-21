@@ -9,12 +9,14 @@
  *   Christopher Guindon <chris.guindon@eclipse-foundation.org>
  *
  * SPDX-License-Identifier: EPL-2.0
-*/
+ */
 
 mix = require('laravel-mix');
-require('laravel-mix-transpile-node-modules')
+require('laravel-mix-transpile-node-modules');
 mix.transpileNodeModules(['eclipsefdn-solstice-assets']);
-mix.options({uglify: {uglifyOptions: {compress: false, output: {comments: true}}}});
+mix.options({
+  uglify: { uglifyOptions: { compress: false, output: { comments: true } } },
+});
 
 mix.setPublicPath('static');
 mix.setResourceRoot('../');
@@ -22,11 +24,11 @@ mix.setResourceRoot('../');
 mix.less('./less/styles.less', 'static/css/styles.css');
 
 mix.webpackConfig({
-    resolve: {
-      alias: {
-        jquery: 'jquery/src/jquery',
-      },
+  resolve: {
+    alias: {
+      jquery: 'jquery/src/jquery',
     },
-  });
+  },
+});
 
-  mix.js('js/main.js', './static/js/solstice.js');
+mix.js('js/main.js', './static/js/solstice.js');
