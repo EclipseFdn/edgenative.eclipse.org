@@ -22,7 +22,7 @@
     "build_netlify": "NODE_ENV=production npm run disallow_robots_txt && npm run production"
   },
   "dependencies": {
-    "eclipsefdn-hugo-solstice-theme": "0.0.111"
+    "eclipsefdn-hugo-solstice-theme": "0.0.129"
   },
   "browserslist": "last 5 version, > 0.2%, not dead, IE 11"
 }
