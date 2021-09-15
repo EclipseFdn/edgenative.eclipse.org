@@ -4,8 +4,6 @@ The [https://eclipsefdn-edgenative.netlify.com](https://eclipsefdn-edgenative.ne
 
 The Edge Native WG delivers production-ready open platforms for edge native applications deployed where compute and storage are physically distributed.
 
-[![Build Status](https://travis-ci.org/eclipsefdn/edgenative.eclipse.org.svg?branch=master)](https://travis-ci.org/eclipsefdn/edgenative.eclipse.org)
-
 ## Getting started
 
 Install dependencies, build assets and start a webserver:
