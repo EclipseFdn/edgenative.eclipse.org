@@ -1,6 +1,6 @@
 defaultRight: |
         <div>
-          <div><a style="float:none;"href="https://www.surveymonkey.com/r/L7SXQXN"><img style="float:none;" src="/images/2021-iot-edge-developer-survey.png" width="150"></a></div>
-          <p class="margin-15">Participate in the survey today!</p>
-          <p><a style="float:none;" class="btn btn-primary" href="https://www.surveymonkey.com/r/L7SXQXN">Complete the Survey</a></p>
+          <div><a style="float:none;"href="https://outreach.eclipse.foundation/edge-computing-edgeops-white-paper"><img style="float:none;" src="/images/from-devops-to-edgeops.png" width="180" alt="White paper cover for DevOps to EdgeOps: A Vision for Edge Computing"></a></div>
+          <p class="margin-15">From DevOps to EdgeOps: A Vision for Edge Computing</p>
+          <p><a style="float:none;" class="btn btn-primary" href="https://outreach.eclipse.foundation/edge-computing-edgeops-white-paper">Download White Paper</a></p>
         </div>
