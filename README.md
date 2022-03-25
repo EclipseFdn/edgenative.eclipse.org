@@ -1,5 +1,13 @@
 # edgenative.eclipse.org
 
+---
+**NOTE**
+
+This project was migrated to [Eclipse Gitlab](https://gitlab.eclipse.org/eclipsefdn/it/websites/edgenative.eclipse.org) on March 25, 2022.
+
+---
+
+
 The [https://eclipsefdn-edgenative.netlify.com](https://eclipsefdn-edgenative.netlify.com) website is generated with [Hugo](https://gohugo.io/documentation/). This project is a work in progress. 
 
 The Edge Native WG delivers production-ready open platforms for edge native applications deployed where compute and storage are physically distributed.
